@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSAuthentication", "AngularJSAuthentication\AngularJSAuthentication.csproj", "{8B3C9C77-43E0-4D63-99FC-8D3EF1B7F949}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSAuthentication.API", "AngularJSAuthentication\AngularJSAuthentication.API.csproj", "{8B3C9C77-43E0-4D63-99FC-8D3EF1B7F949}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJSAuthentication.Web", "AngularJSAuthentication.Web\AngularJSAuthentication.Web.csproj", "{F6BB9B67-B8EB-4E11-9E9C-9059DACFDFC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8B3C9C77-43E0-4D63-99FC-8D3EF1B7F949}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B3C9C77-43E0-4D63-99FC-8D3EF1B7F949}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B3C9C77-43E0-4D63-99FC-8D3EF1B7F949}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6BB9B67-B8EB-4E11-9E9C-9059DACFDFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6BB9B67-B8EB-4E11-9E9C-9059DACFDFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6BB9B67-B8EB-4E11-9E9C-9059DACFDFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6BB9B67-B8EB-4E11-9E9C-9059DACFDFC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

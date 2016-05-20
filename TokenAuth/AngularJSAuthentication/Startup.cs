@@ -4,7 +4,7 @@ using Microsoft.Owin;
 using Owin;
 using System.Web.Http;
 using Microsoft.Owin.Security.OAuth;
-using AngularJSAuthentication.Providers;
+using AngularJSAuthentication.API.Providers;
 
 [assembly: OwinStartup(typeof(AngularJSAuthentication.API.Startup))]
 

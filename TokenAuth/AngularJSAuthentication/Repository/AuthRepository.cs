@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AngularJSAuthentication.Repository
+namespace AngularJSAuthentication.API.Repository
 {
     class AuthRepository : IDisposable
     {
@@ -20,7 +20,7 @@ namespace AngularJSAuthentication.Repository
             _userManager = new UserManager<IdentityUser>(new UserStore<IdentityUser>(_ctx));
         }
 
-        public async Task<IdentityResult> RegisterUser(Models.UserModel userModel)
+        public async Task<IdentityResult> RegisterUser(API.Models.UserModel userModel)
         {
             IdentityUser user = new IdentityUser
             {

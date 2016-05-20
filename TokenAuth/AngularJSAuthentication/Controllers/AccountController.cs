@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
-using AngularJSAuthentication.Repository;
-using AngularJSAuthentication.Models;
+using AngularJSAuthentication.API.Repository;
+using AngularJSAuthentication.API.Models;
 using Microsoft.AspNet.Identity;
 
-namespace AngularJSAuthentication.Controllers
+namespace AngularJSAuthentication.API.Controllers
 {
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController

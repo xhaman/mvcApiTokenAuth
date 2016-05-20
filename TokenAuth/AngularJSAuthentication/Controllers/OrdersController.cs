@@ -5,7 +5,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace AngularJSAuthentication.Controllers
+namespace AngularJSAuthentication.API.Controllers
 {
     [RoutePrefix("api/Orders")]
     public class OrdersController : ApiController
